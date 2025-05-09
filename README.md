@@ -13,17 +13,20 @@ Los datos utilizados vienen de la página https://www.pgnmentor.com/files.html e
 
 ## Modelo
 
+## V1:
 En la primera versión del modelo se utilizó Sentence-BERT para vectorizar partidas de los 17 campeones mundiales de ese entonces (18 actualmente). Para abordar el desbalance de clases, se aplicó SMOTE durante el entrenamiento.
 
 Posteriormente, se entrenó un modelo SVM para clasificar cada partida según el campeón correspondiente. Las filas de la matriz de confusión resultante se utilizaron como embedding representativo de cada jugador. Para la evaluación, se generaron embeddings del mismo modo usando partidas no vistas y se predijo el jugador profesional más cercano usando similaridad de coseno.
 
 Los resultados fueron prometedores:
 
--Con más de 100 partidas para construir el embedding de test, se logró una precisión superior al 80%.
+  -Con más de 100 partidas para construir el embedding de test, se logró una precisión superior al 80%.
 
--Al usar todas las partidas de test, se alcanzó un 100% de precisión.
+  -Al usar todas las partidas de test, se alcanzó un 100% de precisión.
 
 Todo esto puede ser visto en el [repositorio original](https://github.com/212113114/ChessMatch)
+
+##V2:
 
 Para esta segunda versión, planeamos construir los embeddings de una forma distinta: utilizando una cantidad N de clusters para agrupar las partidas. El vector representativo de cada jugador se basará en la proporción de partidas que caen en cada cluster.
 
