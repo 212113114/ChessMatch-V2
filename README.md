@@ -19,9 +19,18 @@ Posteriormente, se entrenó un modelo SVM para clasificar cada partida según el
 
 Los resultados fueron prometedores:
 
-    Con más de 100 partidas para construir el embedding de test, se logró una precisión superior al 80%.
+-Con más de 100 partidas para construir el embedding de test, se logró una precisión superior al 80%.
 
-    Al usar todas las partidas de test, se alcanzó un 100% de precisión.
+-Al usar todas las partidas de test, se alcanzó un 100% de precisión.
+
+Todo esto puede ser visto en el [repositorio original](https://github.com/212113114/ChessMatch)
+
+Para esta segunda versión, planeamos construir los embeddings de una forma distinta: utilizando una cantidad N de clusters para agrupar las partidas. El vector representativo de cada jugador se basará en la proporción de partidas que caen en cada cluster.
+
+Además, no queremos limitarnos solo a los campeones mundiales: nuestro objetivo es trabajar con datos de todos los jugadores profesionales disponibles. De esta forma, no solo se podrá recomendar al jugador profesional más similar, sino también identificar el grupo de jugadores (cluster) que comparten un estilo de juego similar.
+
+
+
 
 
 
