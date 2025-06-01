@@ -3,3 +3,6 @@ temp_pgns/*
 
 # embeddings
 embeddings/*
+
+# .pt
+*.pt
