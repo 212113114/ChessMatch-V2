@@ -36,8 +36,9 @@ Además, no queremos limitarnos solo a los campeones mundiales: nuestro objetivo
 
 ## Archivos adicionales
 
-Githuh no admite archivos con un tamaño mayor a 25 mb, por lo que los archivos adicionales estarán en este [drive](https://drive.google.com/drive/folders/1xWqTHg10bwfcVWvEcJvj7nwwGMYrgiOV).
+Githuh no admite archivos con un tamaño mayor a 25 mb, por lo que los archivos adicionales estarán en este [drive](https://drive.google.com/drive/folders/1xWqTHg10bwfcVWvEcJvj7nwwGMYrgiOV), todos los archivos csv descargados tienen que ir en la carpeta "csvs"
 
-"games.csv" debe estar en la carpeta "csvs"
+
+
 
 
