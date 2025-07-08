@@ -3,7 +3,7 @@ Este proyecto es parte del curso **IIC3633 - Sistemas Recomendadores** de la **P
 
 Es la segunda versión del proyecto llamado ChessMatch, cuyo objetivo es analizar las partidas de un jugador de ajedrez y recomendarle un jugador profesional con un estilo de juego similar. Como mejora respecto a la versión anterior, se planea implementar un embedding de N factores latentes para los jugadores y también la capacidad de identificar el estilo de juego del usuario, determinando por el cluster al que pertenece y también recomendar un set de partidas del jugador recomendando de acuerdo al perfil del usuario.
 
-Los integrantes son Benjamín Varela, Francisco Meza, Vicente Navarro y Tiare Marín.
+Los integrantes son Benjamín Varela, Francisco Meza y Vicente Navarro
 
 🔗 Repositorio original (v1): [ChessMatch](https://github.com/212113114/ChessMatch)
 
