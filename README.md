@@ -46,7 +46,7 @@ clustering_e5.ipynb: contiene el testeo del modelo con e5-large-v2
 
 clustering_gnn.ipynb: contiene el testeo del modelo con GNN, este es el modelo definitivo debido a que dio mejores resultados
 
-RecSys.ipynb: Contiene el modelo recomendador con todas la funciones necesarias para que funcione, es necesario tener un archivo pgn, los modelo .pkl y archivos .csv descargados, incluye un ejemplo de uso.
+RecSys.ipynb: Contiene el modelo recomendador con todas la funciones necesarias para que funcione, es necesario tener un archivo pgn, los modelos .pkl y archivos .csv descargados, incluye un ejemplo de uso.
 
 ## Archivos adicionales
 
